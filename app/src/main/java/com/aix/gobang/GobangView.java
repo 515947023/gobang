@@ -37,20 +37,40 @@ public class GobangView extends View {
      */
     private Paint mPaintRed;
 
+    /**
+     * 存储棋子
+     */
     private int[][] chessPieces;
 
+    /**
+     * 尚无棋子
+     */
     private static final int NULL_CHESS = 0;
+    /**
+     * 黑色棋子
+     */
     private static final int BLACK_CHESS = 1;
+    /**
+     * 红色棋子
+     */
     private static final int RED_CHESS = 2;
 
-    //棋盘间距
+    /**
+     * 棋盘间距
+     */
     private int chessSpace = 0;
-    //坐上边距确定绘制起点
+    /**
+     * 距确定绘制起点
+     */
     private int leftStart = 0;
     private int topStart = 0;
-    //棋盘格数
+    /**
+     * 棋盘格数
+     */
     private int chessNum = 13;
-    //当前是否为黑色棋子
+    /**
+     * 当前是否为黑色棋子
+     */
     public boolean isBlack = true;
 
 
